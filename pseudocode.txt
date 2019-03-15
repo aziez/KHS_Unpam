@@ -1,0 +1,27 @@
+mulai
+deklarasi
+
+{ char nim[15],nama[50],jurusan[15],kelas[15];
+  }data;
+
+{char matkul[20];
+ float absen,tugas,uts,uas,bobot;
+ int sks;
+ float na;
+ } pepenilaianaian [100];
+
+int a,jml;
+float ipk,jumsks=0;
+
+deskripsi
+input nim,nama,jurusan, kelas
+input banyak matakuliah
+
+for(a=0;a<jml;a++)
+
+input mtkul, sks, penilaianai absen, tugas, uts, uas
+
+penilaian[a].na=(0.1*penilaian[a].absen)+(0.2*penilaian[a].tugas)+(0.3*penilaian[a].uts)+
+                                                (0.4*penilaian[a].uas);
+
+cetak penilaianai akhir, penilaianai huruf, total sks, ipk
